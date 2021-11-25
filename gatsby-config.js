@@ -7,6 +7,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "react-refresh",
     {
       resolve: "gatsby-source-filesystem",
       options: {

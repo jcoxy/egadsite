@@ -1,4 +1,5 @@
 import * as React from "react"
+import "./css/styles.css"
 
 // styles
 const pageStyles = {
@@ -84,7 +85,7 @@ const links = [
     text: "Tutorial",
     url: "https://www.gatsbyjs.com/docs/tutorial/",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "A really great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
     color: "#E95800",
   },
   {
@@ -139,8 +140,8 @@ const IndexPage = () => {
         </span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
+        I'm editing this now, again. Yes, Again. Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
+        update in real-time. Is hot reload working?{" "}
         <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
